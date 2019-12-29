@@ -1,4 +1,4 @@
-# Kaspi Reviews Dataset
+# Reviews Dataset
 
 ## Dataset was collected by: 
 https://github.com/n1EzeR/kaspi_parser
