@@ -1,10 +1,10 @@
 # Reviews Dataset
 
 ## Dataset was collected by: 
-https://github.com/n1EzeR/kaspi_parser
+https://github.com/n1EzeR/reviews_parser
 
 ## Dataset was compiled and partially cleaned by:
-https://github.com/n1EzeR/kaspi_tazalau
+https://github.com/n1EzeR/reviews_tazalau
 
 ## Dataset contains:
 1. 112 049 Russian reviews
@@ -38,7 +38,7 @@ Number of categories: 17
 
 # Cleaned Dataset 
 ### Differs from raw data by:
-- Stopwords are removed (find them in `kaspi_tazalau/code/constants.py`)
+- Stopwords are removed (find them in `reviews_tazalau/code/constants.py`)
 - Tags are removed (e.g. `<br>`, `</br>`, `<p>`)
 - Russian words are lemmatized (via pymystem3)
 - `text`, `plus` and `minus` columns are concatenated into one `combined_text` column
